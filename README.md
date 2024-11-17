@@ -1,2 +1,3 @@
-# cs-practicals
-Computer Science college practicals
+# Cs Practicals
+
+LCB Computer Science college practicals
