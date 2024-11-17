@@ -8,7 +8,7 @@ int main()
     scanf("%d%d",&a,&b);
 
     printf("Enter Operator : ");
-    scanf("%c",&choice);
+    scanf(" %c",&choice);
 
     switch (choice)
     {
@@ -17,7 +17,7 @@ int main()
         break;
     
     case '-':
-        printf("Difference = %d",a+b);
+        printf("Difference = %d",a-b);
         break;
 
      case '*':
