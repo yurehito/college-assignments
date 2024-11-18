@@ -1,8 +1,7 @@
-// warf to display fibonacci series
+// waf to display fibonacci series - i) iteration, ii) recursiion 
 
+// ii) using recurssion 
 #include <stdio.h>
-
-// Recursive function to calculate Fibonacci number
 int fibonacciRecursive(int n) {
     if (n == 0)
         return 0;
@@ -26,3 +25,37 @@ int main() {
 
     return 0;
 }
+
+
+// i) using iteration
+// #include <stdio.h>
+
+// void fibonacciIterative(int n) {
+//     int a = 0, b = 1, next;
+
+//     printf("Fibonacci series using iteration: ");
+//     for (int i = 0; i < n; i++) {
+//         if (i == 0)
+//             next = a;
+//         else if (i == 1)
+//             next = b;
+//         else {
+//             next = a + b;
+//             a = b;
+//             b = next;
+//         }
+//         printf("%d ", next);
+//     }
+//     printf("\n");
+// }
+
+// int main() {
+//     int n;
+
+//     printf("Enter the number of terms for the Fibonacci series (iteration): ");
+//     scanf("%d", &n);
+
+//     fibonacciIterative(n);
+
+//     return 0;
+// }
