@@ -1,3 +1,3 @@
 # Cs Practicals
 
-LCB Computer Science college practicals
+LCB Computer Science practicals
