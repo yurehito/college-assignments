@@ -18,7 +18,7 @@ int main() {
     printf("Enter the number : ");
     scanf("%d", &n);
 
-    printf("Fibonacci series using recursion: ");
+    printf("Fibonacci series using recursion : ");
     for (int i = 0; i < n; i++) {
         printf("%d ", fibonacciRecursive(i));
     }
