@@ -1,0 +1,1 @@
+// Write a program to find the sum of n elements entered by the user. To write this program, allocate memory dynamically using malloc() or calloc() functions.
