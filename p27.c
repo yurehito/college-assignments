@@ -10,7 +10,7 @@ int main() {
     FILE *file = fopen(filename, "r");
     if (file) {
         printf("\nText Mode:\n");
-        printf("%s", filename);  // Prints the entire contents of the file
+        printf("%s", filename);
         fclose(file);
     } else {
         printf("Error opening file in text mode.\n");
@@ -19,7 +19,7 @@ int main() {
     file = fopen(filename, "rb");
     if (file) {
         printf("\nBinary Mode:\n");
-        printf("%s", filename);  // Prints the entire contents of the file
+        printf("%s", filename);
         fclose(file);
     } else {
         printf("Error opening file in binary mode.\n");
