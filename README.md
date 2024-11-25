@@ -1,3 +1,3 @@
-# ©️ C Practicals
+# ©️ Practicals
 
 LCB Computer Science practicals
