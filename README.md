@@ -42,7 +42,11 @@ The set includes **30 questions**, covering foundational and advanced topics in 
 
 # Author  
 
-**Name** : Hrishikesh Sarma  
-**Github** : [rishizip](https://github.com/rishizip)  
-**Class** : B.Sc 1st Sem  
+## Author  
+
+| Field  | Details            |
+|--------|--------------------|
+| Name   | Hrishikesh Sarma   |
+| Git    | [rishizip](https://github.com/rishizip) |
+| Class  | B.Sc 1st Sem       |
 
