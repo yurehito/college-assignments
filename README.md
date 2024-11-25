@@ -38,11 +38,10 @@ The set includes **30 questions**, covering foundational and advanced topics in 
 | 29  | Write a program to open a file and count the number of characters and lines                              | File I/O               |
 | 30  | Write a program to open a file in append mode and allow the user to add text                             | File I/O               |
 
----
+# Preview
+[!img]()
 
 # Author  
-
-## Author  
 
 | Field  | Details            |
 |--------|--------------------|
