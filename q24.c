@@ -4,7 +4,7 @@
 #define SWAP(a, b) do { \
     a = a ^ b; \
     b = a ^ b; \
-    a = a ^ b; \
+    a = a ^ b; 
 } while (0)
 
 int main() {
