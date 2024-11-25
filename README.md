@@ -1,10 +1,8 @@
-# C Practicals  
-
+# 👨‍💻 C Practicals  
 This repository contains solutions to practical questions on C programming, curated by **LCB College**.  
 The set includes **30 questions**, covering foundational and advanced topics in C.  
 
-# Table of Questions  
-
+# 📚 Table of Questions  
 | No. | Question                                                                                                 | Topic                   |
 |-----|---------------------------------------------------------------------------------------------------------|-------------------------|
 | 1   | Write a program in C to print "Hello World"                                                              | Basics of C            |
@@ -38,11 +36,11 @@ The set includes **30 questions**, covering foundational and advanced topics in 
 | 29  | Write a program to open a file and count the number of characters and lines                              | File I/O               |
 | 30  | Write a program to open a file in append mode and allow the user to add text                             | File I/O               |
 
-# Preview
-[!img]()
+# 👀 Preview
+![C Practicals](https://github.com/rishizip/animations/blob/5ef15f1273ebe9c61debffa06f77a535f5c12428/C%20PRACTICALS.png)
 
-# Author  
 
+# ✍️ Submitted By
 | Field  | Details            |
 |--------|--------------------|
 | Name   | Hrishikesh Sarma   |
