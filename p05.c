@@ -1,3 +1,7 @@
+// wap to print a trianlge of stars as follows ( take no. of lines from user) :
+//   *
+//  ***
+// *****
 #include <stdio.h>
 
 int main() {
