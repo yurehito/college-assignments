@@ -44,6 +44,6 @@ The set includes **30 questions**, covering foundational and advanced topics in 
 | Field  | Details            |
 |--------|--------------------|
 | Name   | Hrishikesh Sarma   |
-| Git    | [rishizip](https://github.com/rishizip) |
+| Git    | [yurehito](https://github.com/yurehito) |
 | Class  | B.Sc 1st Sem       |
 
