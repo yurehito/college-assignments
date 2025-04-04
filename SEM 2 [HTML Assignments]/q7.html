@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Frames</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .frame-layout {
+            display: none;
+            margin-top: 20px;
+            border: 2px solid black;
+        }
+        .frame-layout iframe {
+            border: 1px solid black;
+        }
+        .layout1 {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            height: 300px;
+        }
+        .layout2 {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            height: 300px;
+        }
+        .layout3 {
+            display: flex;
+            justify-content: space-between;
+            height: 300px;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            background: #007bff;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Select Frame Layout</h2>
+        <button onclick="showLayout(1)">Layout 1</button>
+        <button onclick="showLayout(2)">Layout 2</button>
+        <button onclick="showLayout(3)">Layout 3</button>
+
+        <div id="layout1" class="frame-layout layout1">
+            <iframe src="frame1.html" width="100%" height="100%"></iframe>
+            <iframe src="frame2.html" width="100%" height="100%"></iframe>
+        </div>
+
+        <div id="layout2" class="frame-layout layout2">
+            <iframe src="frame1.html" width="100%" height="100%"></iframe>
+            <iframe src="frame2.html" width="100%" height="100%"></iframe>
+            <iframe src="frame3.html" width="100%" height="100%"></iframe>
+        </div>
+
+        <div id="layout3" class="frame-layout layout3">
+            <iframe src="frame1.html" width="33%" height="100%"></iframe>
+            <iframe src="frame2.html" width="33%" height="100%"></iframe>
+            <iframe src="frame3.html" width="33%" height="100%"></iframe>
+        </div>
+    </div>
+
+    <script>
+        function showLayout(layout) {
+            document.querySelectorAll('.frame-layout').forEach(div => div.style.display = 'none');
+            document.getElementById(`layout${layout}`).style.display = 'grid';
+        }
+    </script>
+</body>
+</html>
